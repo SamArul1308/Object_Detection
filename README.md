@@ -34,3 +34,40 @@ For launching detectnet
 
 ## Evaluation 
 
+Evaluation of the detectnet model is required to see how effective it is at distinguising the different objects. We need to know the accuracy of the model to know how much we can depend on the system.
+
+
+
+<div align="center">
+    <img src="images/Detection_image_1.png" width=900 height=500>
+</div>
+
+
+
+<div align="center">
+    <img src="images/Detection_image_2.png" width=900 height=500>
+</div>
+
+
+
+<div align="center">
+    <img src="images/Detection_image_3.png" width=900 height=500>
+</div>
+
+
+
+<div align="center">
+    <img src="images/Detection_image_4.png" width=900 height=500>
+</div>
+
+
+
+<div align="center">
+    <img src="images/Detection_image_5.png" width=900 height=500>
+</div>
+
+
+
+<div align="center">
+    <img src="images/Detection_image_6.png" width=900 height=500>
+</div>
