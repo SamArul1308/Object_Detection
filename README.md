@@ -42,7 +42,7 @@ The image below shows the object detection in action. We can see that the car on
     <img src="images/Detection_image_1.png" width=900 height=500>
 </div>
 
-The image below shows the confidence on the detection of the person has improved to 95.9% as the person got closer to the vehicle. The car detection has also slightly increased to 80.5% confidence without any difference. 
+The image below shows the confidence on the detection of the person has improved to 95.9% as the person got closer to the vehicle. The car detection has also slightly increased to 80.5% confidence without any changes made to the car or the distance to the car.
 
 <div align="center">
     <img src="images/Detection_image_2.png" width=900 height=500>
