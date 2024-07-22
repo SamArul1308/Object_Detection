@@ -66,7 +66,7 @@ In the image below, we can see that the potted plant obstacle is recognized when
     <img src="images/Detection_image_5.png" width=900 height=500>
 </div>
 
-In the image below, a cardboard board is recognized as a TV. Even though that recognition is not needed to be rectified for our implementation, the team can try to improve on the object detection. 
+In the image below, a cardboard is recognized as a TV. Even though that recognition is not needed to be rectified for our implementation, the team can try to improve on the object detection. 
 
 <div align="center">
     <img src="images/Detection_image_6.png" width=900 height=500>
