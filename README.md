@@ -34,42 +34,26 @@ For launching detectnet
 
 ## Evaluation 
 
-Evaluation of the detectnet model is required to see how effective it is at distinguising the different objects. We need to know the accuracy of the model to know how much we can depend on the system.
+Evaluation of the detectnet model is required to see how effective it is at distinguising the different objects. We need to know the accuracy of the model to know how much we can depend on the system. The evaluation was done in the module 3 and the [results can be found here.](https://git.hs-coburg.de/KickStart/ks_object_detection/src/branch/main/OldReadme.md)
 
-The image below shows the object detection in action. We can see that the car on the right side is detected with a confidence of 78.2%. The car on the left side is not detected. The person is also detected but with a confidence of 79.7%. The confidence can be improved along with the detection (the left car is not detected).
+## Transfer Learning
 
-<div align="center">
-    <img src="images/Detection_image_1.png" width=900 height=500>
-</div>
+The learnings from the transfer learning was used with the project work to make the detectnet better and work well with respect to what is needed in the project. For the transfer learning exercise, we made use of three classes - car, number_plate and traffic_light.
 
-The image below shows the confidence on the detection of the person has improved to 95.9% as the person got closer to the vehicle. The car detection has also slightly increased to 80.5% confidence without any changes made to the car or the distance to the car.
+949 images were used as the dataset for transfer learning. The dataset was split as 80% training data, 10% validation data and 10% test data as seen in the image below. 
 
 <div align="center">
-    <img src="images/Detection_image_2.png" width=900 height=500>
+    <img src="images/image1.png" width=900 height=500>
 </div>
 
-The image below shows the left car being labelled as a motorcycle with a confidence of 56.5%. The detection can still be improved. 
+The training was done on the dataset after which the team evaluated the model. The image below shows the Mean Average Precision for the three classes to be 78%.
 
 <div align="center">
-    <img src="images/Detection_image_3.png" width=900 height=500>
+    <img src="images/image2.png" width=1200 height=400>
 </div>
 
-In the image below, we can see the traffic light is not detected. The detection of the traffic light also would benefit the project in the future.
+The detectnet module works well with the trained classes and the performance has been observed to be better. It can be further evaluated over the next module. The imaage of the car and number plate recognition is shown below. 
 
 <div align="center">
-    <img src="images/Detection_image_4.png" width=900 height=500>
+    <img src="images/image3.png" width=640 height=480>
 </div>
-
-In the image below, we can see that the potted plant obstacle is recognized when kept in the centre of the camera view. Initially the pot was on the side, but it was not recognized. It seems that the obstacles far away are not recognized efficiently. 
-
-<div align="center">
-    <img src="images/Detection_image_5.png" width=900 height=500>
-</div>
-
-In the image below, a cardboard is recognized as a TV. Even though that recognition is not needed to be rectified for our implementation, the team can try to improve on the object detection. 
-
-<div align="center">
-    <img src="images/Detection_image_6.png" width=900 height=500>
-</div>
-
-The evaluation of the detectnet model shows varying accuracy in object detection, with some objects like cars and persons detected with moderate confidence, while others, like traffic lights and distant obstacles, are often missed or misclassified. Improvements are needed to enhance detection accuracy and reliability, especially for critical objects like traffic lights and vehicles. Future work should focus on addressing these detection inconsistencies.
