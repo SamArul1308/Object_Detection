@@ -52,8 +52,37 @@ The training was done on the dataset after which the team evaluated the model. T
     <img src="images/image_2.png" width=1200 height=400>
 </div>
 
-The detectnet module works well with the trained classes and the performance has been observed to be better. It can be further evaluated over the next module. The imaage of the car and number plate recognition is shown below. 
+The detectnet module works well with the trained classes and the performance has been observed to be better. It can be further evaluated over the next module. The image of the car and number plate recognition is shown below. 
 
 <div align="center">
     <img src="images/image_3.png" width=640 height=480>
 </div>
+
+## Dataset Summary
+
+The analytics of the dataset can be seen below. There are 2485 annotations in the 949 images that give 2.6 annotations per image on an average across three classes. 
+
+<div align="center">
+    <img src="images/Classes and Annotations.png" width=900 height=500>
+</div>
+
+Each of the classes discussed have a specific distribution of samples divided into training, validation, and test sets.
+
+### Data Distribution
+| Class Name      | Total Count | Training Count | Validation Count | Test Count |
+|-----------------|-------------|----------------|-------------------|------------|
+| car             | 1177        | 944            | 110               | 123        |
+| traffic_light   | 867         | 648            | 89                | 130        |
+| number_plate    | 441         | 347            | 50                | 44         |
+
+### Details
+- **Training Count**: Number of samples used for training the model.
+- **Validation Count**: Number of samples used for validating the model during training.
+- **Test Count**: Number of samples used for evaluating the model after training.
+
+The histogram below illustrates the number of annotations and their frequency. It provides insight into the distribution and prevalence of annotations across the images.
+
+<div align="center">
+    <img src="images/Histogram.png" width=640 height=480>
+</div>
+
