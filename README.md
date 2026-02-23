@@ -34,7 +34,7 @@ For launching detectnet
 
 ## Evaluation 
 
-Evaluation of the detectnet model is required to see how effective it is at distinguising the different objects. We need to know the accuracy of the model to know how much we can depend on the system. The evaluation was done in the module 3 and the [results can be found here.](https://git.hs-coburg.de/KickStart/ks_object_detection/src/branch/main/OldReadme.md)
+Evaluation of the detectnet model is required to see how effective it is at distinguising the different objects. We need to know the accuracy of the model to know how much we can depend on the system. The evaluation was done in the module 3 and the [results can be found here.](https://github.com/SamArul1308/Object_Detection/blob/main/OldReadme.md)
 
 ## Transfer Learning
 
